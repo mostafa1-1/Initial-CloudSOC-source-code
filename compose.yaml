@@ -1,0 +1,14 @@
+# LOCAL use only; binds only localhost (not a public internet deployment).
+services:
+  cloudsoc:
+    build: .
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      DATABASE_PATH: /app/data/cloudsoc.db
+    volumes:
+      - cloudsoc_data:/app/data
+volumes:
+  cloudsoc_data:

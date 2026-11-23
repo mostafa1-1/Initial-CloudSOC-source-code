@@ -1,0 +1,15 @@
+node_modules
+.git
+.env
+.env.*
+!.env.example
+*.zip
+*.log
+__pycache__
+*.pyc
+**/*.db
+**/*.db-shm
+**/*.db-wal
+.aistudio
+
+firebase-service-account*.json

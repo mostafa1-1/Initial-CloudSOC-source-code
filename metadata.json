@@ -1,0 +1,8 @@
+{
+  "name": "CloudSOC — Cloud Security Operations Center",
+  "description": "Cloud-based security monitoring, rule-based threat detection, alert management, and incident response platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
